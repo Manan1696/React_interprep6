@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>Day-6 React Interview Questions</h1>
+    <h2>Q1. What is an event in react?</h2>
+    <p>An event is an action that could be triggered as a result of the user action or system generated event. For example, a mouse click, loading of a web page, pressing a key, window resizes, and other interactions are called events.
+    React has its own event handling system which is very similar to handling events on DOM elements. The react event handling system is known as Synthetic Events. The synthetic event is a cross-browser wrapper of the browser's native event.</p>
+    <hr>
+    <h2>Q2. What is Memory leak and how to overcome it ?</h2>
+    <p>It is a commonly faced issue when developing react application. It causes many problem like slowing down the
+       application. Crashing system, affecting the project performance by reducing the amount of available memory.
+    </p>
+    <hr>
+    <h2>Q3. Do you prefer function-based or class component and why ?</h2>
+    <p>1. Functional Component. A functional component is just a plain JavaScript pure function that accepts props as an argument and returns a React element(JSX).<br>
+       2. A class component requires you to extend from React.<br>
+       3. Component and create a render function which returns a React element.<br>
+       4. here is no render method used in functional components.</p>
+    <hr>
+    <h2>Q4. Explain reducer as pure function in redux ?</h2>
+    <p>In Redux, a reducer is a pure function that takes an action and the previous state of the application and returns the new state.
+       The action describes what happened and it is the reducer's job to return the new state based on that action.</p> 
+    <hr>
+    <h2>Q5. Why do we use redux thunk?</h2>
+    <p>The most common use case for Redux Thunk is for communicating asynchronously with an external API to retrieve or save data. Redux Thunk makes it easy to dispatch actions that follow the lifecycle of a request to an external API. Redux Thunk is middleware that allows you to return functions, rather than just actions, within Redux. This allows for delayed actions, including working with promises. One of the main use cases for this middleware is for handling actions that might not be synchronous, for example, using axios to send a GET request.</p>
+    <hr>
+    <h2>Q6. What do you know about NPM?</h2>
+    <p>NPM stands for 'Node Package Module',npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
+    <br><br>
+    npm consists of three distinct components :-
+    <br><br>
+    1. the website<br>
+    2. the Command Line Interface (CLI)<br>
+    3. the registry</p>
+</body>
+</html>
